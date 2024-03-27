@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Contant.css" />
+    <title>Contant</title>
+  </head>
+  <body class="body">
+    <header class="headerArea">
+      <h2 class="logoText">Simple WebSite</h2>
+      <nav class="navDiv">
+        <ul class="navUl">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./About.html">About</a></li>
+          <li><a href="./Contant.html">Contant</a></li>
+          <li><a href="./Services.html">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="mainArea">
+      <form action="" class="formArea">
+        <h1 class="formHeader">User Login Form</h1>
+
+        <div class="formField">
+          <label class="formLabel" for="name">Name</label>
+          <input required class="formInput" type="text" name="name" id="name" />
+        </div>
+        <div class="formField">
+          <label class="formLabel" for="email">Email</label>
+          <input
+            required
+            class="formInput"
+            type="email"
+            name="email"
+            id="email"
+          />
+        </div>
+        <div class="formField">
+          <label class="formLabel" for="phone">Phone Number</label>
+          <input
+            required
+            class="formInput"
+            type="tel"
+            name="phone"
+            id="phone"
+          />
+        </div>
+        <div class="formField">
+          <label class="formLabel" for="date">Date Of Birth</label>
+          <input required class="formInput" type="date" name="date" id="date" />
+        </div>
+        <div class="formField">
+          <label class="formLabel" for="address">Address</label>
+          <textarea name="address" id="address" cols="10" rows="5"></textarea>
+        </div>
+        <div class="formField">
+          <input type="submit" name="submit" id="submit" class="submitBtn" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

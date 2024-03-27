@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logoText {
+  color: rgb(224, 243, 224);
+}
+.headerArea {
+  height: 50px;
+  background-color: rgb(182, 45, 182);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logoText {
+}
+.mainArea {
+  padding: 20px;
+}
+
+.navDiv {
+}
+
+.navUl {
+  display: flex;
+}
+
+.navUl li {
+  list-style: none;
+}
+
+.navUl li a {
+  padding: 5px 10px;
+  margin: 5px 0;
+  text-decoration: none;
+  color: rgb(231, 236, 233);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.textDiv {
+  margin: 10px 0;
+}
+
+.textHeader {
+  margin-left: 10px;
+  color: red;
+}
+
+.spancolor {
+  color: green;
+}
+
+.footerArea {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(182, 45, 182);
+  height: 50px;
+}
+
+.footerText {
+  color: rgb(186, 216, 186);
+  font-weight: bold;
+
+  margin: auto 0;
+}
+h1{
+  color: red;
+}
+p{
+  color: rgb(235, 118, 9);
+}
+.blue_text{
+  color: blue;
+}
+.mainArea > h1{
+  color: green;
+}
+li{
+  color: purple;
+}
+ul > li {
+  color: red;
+}
+ul li ol > li {
+color: aqua;
+}
+h2 ~ p{
+ background-color: black;
+}
